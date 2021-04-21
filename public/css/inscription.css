@@ -1,0 +1,54 @@
+header{
+    background-image: url('../images/pexels-jess-bailey-designs-768473.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: transparent;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background-color: aliceblue;
+    
+}
+
+li{
+    display: inline-block;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+.panel{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 45%;
+    color: #007bff;
+}
+#email{
+    width: 62%;
+}
+#numero{
+    width: 62%;
+}
+#password{
+    width: 62%;
+}
+.panel{
+    background-color:transparent;
+}
+#mdp{
+    width: 62%;
+}
+#valider{
+    margin-left: 20%; 
+}
+input{
+    border-top: transparent;
+    border-left:transparent ;
+    border-right:transparent ; 
+    background-color: transparent;  
+}
+::placeholder{
+    color: #007bff;
+}

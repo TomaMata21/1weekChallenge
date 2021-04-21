@@ -1,0 +1,42 @@
+header{
+    background-image: url('../images/pexels-pixabay-207691.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: transparent;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    background-color: aliceblue;
+    
+}
+
+li{
+    display: inline-block;
+    padding-right: 50px;
+    margin-top: 20px;
+}
+#texte{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 30%;
+}
+.titre{
+    margin-left: 30%;
+}
+.ps{
+    position: relative;
+}
+.ps .btn {
+    position: absolute;
+    top: 88%;
+    left: 80%;
+    text-align: center;
+  }
+  #voirp{
+      margin-left: 45%;
+      background-color: rgb(58, 121, 82);
+  }
